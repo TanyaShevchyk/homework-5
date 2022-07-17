@@ -141,12 +141,12 @@ input[type="checkbox"] {
     z-index: 2;
 }
 
-input[type="checkbox"]:checked+.checkbox-other::before {
+input:checked+.checkbox-other::before {
     background-color: #FF8984;
 }
 
-input[type="checkbox"]:checked+.checkbox-other::after {
-    opacity: 1;
+input:checked+.checkbox-other::after {
+    opacity: 2;
 }
 
 
