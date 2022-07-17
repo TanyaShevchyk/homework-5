@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shopping list</title>
+    <title>My Shopping list</title>
     <link rel="icon" type="favicon" href="/img/favicon.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
     <link rel="stylesheet" href="css/style.css">
@@ -14,56 +14,68 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
-<dody>
-    <div class="container">
-        <header class="header">
-            <div class="title">
-                <h1>CSS Dinner Shopping List</h1>
-                <span>Let’s go to the mall!</span>
-            </div>
-        </header>
-        <main>
-            <ul class="check-list">
-                <li>
-                    <label for="pickles" class="checkbox-other">
-                        <input type="checkbox" id="pickles">
-                        <span>A lot of pickles</span> &nbsp<span class="comment">(for the next lessons about
-                            CSS)</span>
-                    </label>
-                </li>
-                <li>
-                    <label for="apples" class="checkbox-other">
-                        <input type="checkbox" id="apples">
-                        <span>10 apples</span> &nbsp<span class="comment">(for more CSS manipulations)</span>
-                    </label>
-                </li>
-                <li>
-                    <label for="oranges" class="checkbox-other">
-                        <input type="checkbox" id="oranges">
-                        <span>20 oranges</span>&nbsp<span class="comment">(because they are awesome)</span>
-                    </label>
-                </li>
-                <li>
-                    <label for="platess" class="checkbox-other">
-                        <input type="checkbox" id="platess">
-                        <span>13 platess</span> &nbsp<span class="comment">(hm... they always
-                            dissapear)</span>
-                    </label>
-                </li>
-                <li>
-                    <label for="bentos" class="checkbox-other">
-                        <input type="checkbox" id="bentos">
-                        <span>15 bentos</span>
-                    </label>
-                </li>
-                <li>
-                    <label for="bottle" class="checkbox-other">
-                        <input type="checkbox" id="bottle">
-                        <span>1 bottle of Sake</span> &nbsp<span class="comment">(for my friends)</span>
-                    </label>
-                </li>
-            </ul>
-            <button type="button">Bon appetit :)</button>
-        </main>
+
+<header class="header">
+    <div class="title">
+        <h1>CSS Dinner Shopping List</h1>
+        <span>Let’s go to the mall!</span>
     </div>
-</dody>
+</header>
+<main>
+    <div class="container">
+        <ul class="check-list">
+            <li class="item">
+                <label for="pickles" class="checkbox-other">
+                    <input type="checkbox" id="pickles">
+                    <div class="products">
+                        <span>A lot of pickles</span> &nbsp<span class="comment">for the next lessons about
+                            CSS</span>
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <label for="apples" class="checkbox-other">
+                    <input type="checkbox" id="apples">
+                    <div class="products">
+                        <span>10 apples</span> &nbsp<span class="comment">for more CSS manipulations</span>
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <label for="oranges" class="checkbox-other">
+                    <input type="checkbox" id="oranges">
+                    <div class="products">
+                        <span>20 oranges</span>&nbsp<span class="comment">because they are
+                            awesome</span>
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <label for="platess" class="checkbox-other">
+                    <input type="checkbox" id="platess">
+                    <div class="products">
+                        <span>13 platess</span> &nbsp<span class="comment">hm... they always
+                            dissapear</span>
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <label for="bentos" class="checkbox-other">
+                    <input type="checkbox" id="bentos">
+                    <div class="products">
+                        <span>15 bentos</span>
+                    </div>
+                </label>
+            </li>
+            <li class="item">
+                <label for="bottle" class="checkbox-other">
+                    <input type="checkbox" id="bottle">
+                    <div class="products">
+                        <span>1 bottle of Sake</span> &nbsp<span class="comment">for my friends</span>
+                    </div>
+                </label>
+            </li>
+        </ul>
+        <span class="wishes">Bon appetit :)</span>
+    </div>
+</main>
