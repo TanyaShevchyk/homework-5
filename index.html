@@ -12,71 +12,87 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+        integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
     <header class="header">
-        <div class="title">
+        <div class="container">
             <h1>CSS Dinner Shopping List</h1>
             <span>Let’s go to the mall!</span>
         </div>
     </header>
     <main>
-        <div class="container">
-            <ul class="check-list">
-                <li class="item">
-                    <label for="pickles" class="checkbox-other">
-                        <input type="checkbox" id="pickles">
-                        <div class="products">
-                            <span>A lot of pickles</span> &nbsp<span class="comment">for the next lessons about
-                                CSS</span>
-                        </div>
-                    </label>
-                </li>
-                <li class="item">
-                    <label for="apples" class="checkbox-other">
-                        <input type="checkbox" id="apples">
-                        <div class="products">
-                            <span>10 apples</span> &nbsp<span class="comment">for more CSS manipulations</span>
-                        </div>
-                    </label>
-                </li>
-                <li class="item">
-                    <label for="oranges" class="checkbox-other">
-                        <input type="checkbox" id="oranges">
-                        <div class="products">
-                            <span>20 oranges</span>&nbsp<span class="comment">because they are
-                                awesome</span>
-                        </div>
-                    </label>
-                </li>
-                <li class="item">
-                    <label for="platess" class="checkbox-other">
-                        <input type="checkbox" id="platess">
-                        <div class="products">
-                            <span>13 platess</span> &nbsp<span class="comment">hm... they always
-                                dissapear</span>
-                        </div>
-                    </label>
-                </li>
-                <li class="item">
-                    <label for="bentos" class="checkbox-other">
-                        <input type="checkbox" id="bentos">
-                        <div class="products">
-                            <span>15 bentos</span>
-                        </div>
-                    </label>
-                </li>
-                <li class="item">
-                    <label for="bottle" class="checkbox-other">
-                        <input type="checkbox" id="bottle">
-                        <div class="products">
-                            <span>1 bottle of Sake</span> &nbsp<span class="comment">for my friends</span>
-                        </div>
-                    </label>
-                </li>
-            </ul>
-            <span class="wishes">Bon appetit :)</span>
-        </div>
+        <section class="shopping-list">
+            <div class="container">
+                <ul class="check-list">
+                    <li class="item">
+                        <label for="pickles" class="checkbox-other">
+                            <input type="checkbox" id="pickles">
+                            <div class="description">
+                                <div class="text">
+                                    A lot of pickles<span class="comment">for the next lessons about
+                                        CSS</span>
+                                </div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class="item">
+                        <label for="apples" class="checkbox-other">
+                            <input type="checkbox" id="apples">
+                            <div class="description">
+                                <div class="text">
+                                    10 apples <span class="comment">for more CSS manipulations</span>
+                                </div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class="item">
+                        <label for="oranges" class="checkbox-other">
+                            <input type="checkbox" id="oranges">
+                            <div class="description">
+                                <div class="text">
+                                    20 oranges <span class="comment">because they are
+                                        awesome</span>
+                                </div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class="item">
+                        <label for="platess" class="checkbox-other">
+                            <input type="checkbox" id="platess">
+                            <div class="description">
+                                <div class="text">13 platess<span class="comment">hm... they always
+                                        dissapear</span>
+                                </div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class="item">
+                        <label for="bentos" class="checkbox-other">
+                            <input type="checkbox" id="bentos">
+                            <div class="description">
+                                <div class="text">
+                                    15 bentos
+                                </div>
+                            </div>
+                        </label>
+                    </li>
+                    <li class="item">
+                        <label for="bottle" class="checkbox-other">
+                            <input type="checkbox" id="bottle">
+                            <div class="description">
+                                <div class="text">
+                                    1 bottle of Sake <span class="comment">for my friends</span>
+                                </div>
+                            </div>
+                        </label>
+                    </li>
+                </ul>
+                <span class="wishes">Bon appetit :)</span>
+            </div>
+        </section>
     </main>
 </body>
